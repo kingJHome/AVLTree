@@ -24,4 +24,4 @@ void LeftBalance(BSTree *p);
 void RightBalance(BSTree *p);
 
 //向平衡树插入结点
-int InsertAVL(BSTree *t,int e,int *taller);
+int InsertAVL(BSTree *t,BSTree parent,int e,int *taller);

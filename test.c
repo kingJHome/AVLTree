@@ -42,7 +42,7 @@ void CreateAVL(BSTree *r,char *content){
 		int data = atoi(sepstr),
 			taller = 0;
 
-		InsertAVL(r,data,taller);
+		InsertAVL(r,NULL,data,taller);
 		sepstr = strtok(NULL,delit);
 	}
 }
